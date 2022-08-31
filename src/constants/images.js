@@ -26,7 +26,7 @@ import about04 from '../assets/about04.png';
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
-// eslint-disable-next-line no-unused-vars
+
 import kamal from '../assets/kamal.png';
 
 import adidas from '../assets/adidas.png';
