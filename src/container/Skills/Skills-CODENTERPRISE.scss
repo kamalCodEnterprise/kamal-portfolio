@@ -16,7 +16,9 @@
     flex-direction: column;
   }
 }
-
+div#skills {
+  background: #f9f9f9;
+}
 .app__skills-list {
   flex: 1;
   display: flex;
@@ -45,7 +47,7 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #fef4f5;
+    background-color: #ffffff;
 
     img {
       width: 50%;
@@ -100,6 +102,9 @@
   justify-content: flex-start;
   align-items: flex-start;
   margin: 1rem 0;
+  @media screen and (max-width: 500px) {
+    margin-left: 3.1rem;
+  }
 }
 
 .app__skills-exp-works {
@@ -154,4 +159,15 @@
     max-width: 500px !important;
     line-height: 2 !important;
   }
+}
+// experiance years order accending
+
+div#\32 022{
+  order: 1;
+}
+div#\32 021 {
+  order: 2;
+}
+div#\32 020 {
+  order: 3;
 }

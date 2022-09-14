@@ -35,7 +35,12 @@
     padding: 6rem 1rem 2rem;
   }
 }
-
+.Pname{
+  min-width: 260px;
+  @media screen and (max-width:450px) {
+    min-width: auto;
+  }
+}
 .app__header-info {
   flex: 0.65;
   display: flex;
@@ -49,6 +54,7 @@
   @media screen and (max-width: 1200px) {
     width: 100%;
     margin-right: 0rem;
+    margin: 0 auto;
   }
 }
 

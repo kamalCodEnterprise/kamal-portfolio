@@ -11,7 +11,7 @@ const Footer = () => {
   const [loading, setLoading] = useState(false);
 
   const { username, email, message } = formData;
-
+  const copy = new Date().getFullYear();
   const handleChangeInput = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -32,6 +32,7 @@ const Footer = () => {
         setLoading(false);
         setIsFormSubmitted(true);
       })
+      // eslint-disable-next-line no-console
       .catch((err) => console.log(err));
   };
 
@@ -42,11 +43,11 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">hello@micael.com</a>
+          <a href="mailto:kamaljameel14@gmail.com" className="p-text">kamaljameel14@gmail.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">+1 (123) 456-7890</a>
+          <a href="tel:+92 347 9670713" className="p-text">+92 347 9670713</a>
         </div>
       </div>
       {!isFormSubmitted ? (
@@ -75,6 +76,10 @@ const Footer = () => {
           </h3>
         </div>
       )}
+      <div className="copyright">
+        <p className="p-text">©{copy} VISION CODER</p>
+        <p className="p-text">All rights reserved</p>
+      </div>
     </>
   );
 };

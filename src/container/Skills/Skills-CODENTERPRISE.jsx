@@ -50,6 +50,7 @@ const Skills = () => {
           {experiences.map((experience) => (
             <motion.div
               className="app__skills-exp-item"
+              id={experience.year}
               key={experience.year}
             >
               <div className="app__skills-exp-year">
@@ -68,6 +69,7 @@ const Skills = () => {
                     >
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
+                      <h5> {work.desc}</h5>
                     </motion.div>
                     <ReactTooltip
                       id={work.name}
