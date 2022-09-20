@@ -18,3 +18,11 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+div#home .app__social {
+    position: fixed;
+    z-index: 9999;
+    top: 40%;
+}
+div#about .app__social, div#work .app__social, div#skills .app__social, div#testimonial .app__social, div#contact .app__social {
+display:none;
+}
