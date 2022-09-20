@@ -19,7 +19,7 @@ const Navbar = () => {
             <div />
             <a href={`#${item}`}>{item}</a>
           </li>
-          <div>kamal.</div>
+        
         ))}
       </ul>
 
