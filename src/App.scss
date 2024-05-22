@@ -54,9 +54,9 @@
 }
 
 .head-text {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   font-weight: 800;
-  text-align: center;
+  text-align: left;
   color: var(--black-color);
   text-transform: capitalize;
 
@@ -189,9 +189,9 @@
     position: absolute;
     bottom: 0;
     z-index: 2;
-}
+  }
 
- .copyright {
+  .copyright {
     padding: 2rem;
   }
 }
