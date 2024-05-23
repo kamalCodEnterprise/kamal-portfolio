@@ -24,7 +24,6 @@ const Navbar = () => {
 
       <div className='app__navbar-menu'>
         <HiMenuAlt4 onClick={() => setToggle(true)} />
-
         {toggle && (
           <motion.div
             whileInView={{ x: [300, 0] }}
